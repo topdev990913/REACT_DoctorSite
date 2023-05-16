@@ -1,0 +1,116 @@
+
+.buttonalign1 {
+  margin: auto;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: rgb(0, 144, 254);
+  font-size: 15px;
+  border-color: rgb(0, 144, 254);
+  color: white;
+  font-weight: bold;
+  justify-content: center;
+  display: flex;
+}
+
+.buttonalign2 {
+  margin: auto;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: rgb(0, 144, 254);
+  font-size: 15px;
+  border-color: rgb(0, 144, 254);
+  color: white;
+  font-weight: bold;
+  display: flex;
+  /* opacity: 0.8; */
+}
+
+.buttonalign1:hover,
+.buttonalign2:hover {
+  background-color: rgb(17, 206, 249);
+  color: black;
+}
+.logoinsert {
+  object-fit: contain;
+  width: 80%;
+  height: 60%;
+}
+
+.textalign {
+  color: #709426;
+  font-family: "Oswald", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 28px;
+  text-shadow: -1px -1px 0 rgb(8, 174, 234), 1px -1px 0 rgb(8, 174, 234),
+    -1px 1px 0 rgb(8, 174, 234), 1px 1px 0 rgb(8, 174, 234);
+  text-align: center;
+  margin-top: 50px;
+}
+
+.textalign1 {
+  text-align: center;
+  color: black;
+  text-shadow: 1px 1px 2px rgb(214, 245, 220);
+  margin-top: 60px;
+  padding-left: 150px;
+  padding-right: 150px;
+  font-size: 25px;
+  color: #709426;
+  font-family: "Oswald", sans-serif;
+}
+
+.textalign2 {
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 2px pink;
+    margin-top: 50px;
+    padding-left: 180px;
+    padding-right: 180px;
+    font-size: 19px;
+    color: #344a07;
+    font-family: "Oswald", sans-serif;
+  }
+
+@media only screen and (max-width: 1480px) {
+  .textalign1 {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .textalign2 {
+    padding: 0;
+  }
+}
+
+
+
+.linked {
+  cursor: pointer;
+  color: aqua;  
+}
+
+.linked:hover {
+    font-size: 16px;
+    color: rgb(13, 103, 103);
+    font-weight: bold;
+    text-decoration: underline black;
+    text-underline-offset: 5px;
+}
+
+.here {
+  cursor: pointer;
+  color: rgb(0, 208, 255);
+  /* margin-top: 50px;  */
+}
+
+.here:hover {
+  color: rgb(45, 183, 214);
+  text-decoration: underline black;
+  text-underline-offset: 10px;
+}

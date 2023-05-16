@@ -1,0 +1,51 @@
+.menus {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.is-current {
+    background-color: black;
+    color: white;
+    border-radius: 10;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
+}
+
+.hierarchy_menus {
+    background-color: white;
+    color: grey;
+    border-radius: 10;
+}
+
+.addBtn {
+    background-color: 'yellow';
+    border-color: 'yellow';
+    border-radius: '10%';
+    width: 60;
+    height: 40
+}
+.btn:hover {
+    text-decoration: none;
+}
+.btn {
+    color: black;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.me-auto:active {
+    border-bottom: 2px red;
+}
+
+.companyname {
+    font-family: 'Impact';
+    color: black;
+}
+
+.iconinsert {
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 40px;
+    height: 40px;
+}
